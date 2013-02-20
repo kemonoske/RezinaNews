@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bgr"
+    android:fillViewport="true" >
+
+<LinearLayout
+    android:id="@+id/homeLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center_horizontal"
+    android:background="@android:color/transparent"
+    android:baselineAligned="false"
+    android:orientation="vertical"
+    android:scrollbarAlwaysDrawVerticalTrack="false" >
+
+    <ImageView
+        android:id="@+id/homeSign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:maxHeight="340dp"
+        android:maxWidth="340dp"
+        android:src="@drawable/stema_raion" />
+
+    <TextView
+        android:id="@+id/homeTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:text="Consiliul Raional Rezina"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#767676"
+        android:textStyle="bold" />
+
+</LinearLayout>
+</ScrollView>

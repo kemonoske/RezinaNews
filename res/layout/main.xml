@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+	<TabHost 
+	    android:id="@android:id/tabhost"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+        android:layout_weight="1"
+	    android:background="@drawable/bg">
+	    
+	    <LinearLayout
+	        android:orientation="vertical"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	   		android:background="@android:color/transparent">
+	        
+	        <HorizontalScrollView 
+	            android:id="@+id/horizontalScrollView1"
+		 		android:layout_width="fill_parent" 
+			    android:layout_height="wrap_content"
+		   	    android:fillViewport="true"
+		        android:scrollbars="none">
+	
+		        <TabWidget
+		            android:id="@android:id/tabs"
+		            android:layout_width="fill_parent"
+		            android:layout_height="wrap_content"
+	    			android:background="@android:color/transparent"/>
+		        
+	        </HorizontalScrollView>
+	        
+	        <FrameLayout
+	            android:id="@android:id/tabcontent"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	   			android:background="@android:color/transparent">
+				
+	        </FrameLayout>
+	
+	    </LinearLayout>
+	    
+	</TabHost>
+	
+    <!-- <com.google.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/admob_publisher_id"
+        ads:loadAdOnCreate="true" />-->
+    
+</LinearLayout>

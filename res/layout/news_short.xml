@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+	android:orientation="horizontal"
+    android:background="@android:color/transparent">
+
+    <ImageView
+        android:id="@+id/thumb"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_launcher" >
+    </ImageView>
+	
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+    	android:background="@android:color/transparent">
+        
+	    <TextView
+	        android:id="@+id/title"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="Titlu test al articolelor"
+	        android:textSize="20dp"
+	        android:textColor="#000000" >
+	    </TextView>
+	    
+	    <TextView
+	        android:id="@+id/short_article"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="Acesta este un exemplu simplu de continut a unui articol ce ar trebui sa ocupe citeva rinduri..."
+	        android:textSize="12dp"
+	        android:textColor="#767676" >
+	    </TextView>
+	    
+	</LinearLayout>
+	
+</LinearLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, RezinaActivity!</string>
+    <string name="app_name">Rezina News</string>
+    <string name="homeText">This is my home tab.</string>
+    <string name="options_title">Setări:</string>
+    <string name="categories_title">Categorii afișate:</string>
+    <string-array name="newsTitles">
+        <item>Articol 1 Titlu</item>
+        <item>Articol 2 Titlu</item>
+        <item>Articol 3 Titlu</item>
+        <item>Articol 4 Titlu</item>
+        <item>Articol 5 Titlu</item>
+        <item>Articol 6 Titlu</item>
+        <item>Articol 7 Titlu</item>
+        <item>Articol 8 Titlu</item>
+        <item>Articol 9 Titlu</item>
+        <item>Articol 10 Titlu</item>
+        <item>Articol 11 Titlu</item>
+        <item>Articol 12 Titlu</item>
+        <item>Articol 13 Titlu</item>
+        <item>Articol 14 Titlu</item>
+        <item>Articol 15 Titlu</item>
+        <item>Articol 16 Titlu</item>
+    </string-array>
+    
+    <string-array name="newsShort">
+        <item>Articol 1 Continut</item>
+        <item>Articol 2 Continut</item>
+        <item>Articol 3 Continut</item>
+        <item>Articol 4 Continut</item>
+        <item>Articol 5 Continut</item>
+        <item>Articol 6 Continut</item>
+        <item>Articol 7 Continut</item>
+        <item>Articol 8 Continut</item>
+        <item>Articol 9 Continut</item>
+        <item>Articol 10 Continut</item>
+        <item>Articol 11 Continut</item>
+        <item>Articol 12 Continut</item>
+        <item>Articol 13 Continut</item>
+        <item>Articol 14 Continut</item>
+        <item>Articol 15 Continut</item>
+        <item>Articol 16 Continut</item>
+    </string-array>
+    
+    <string-array name="categories">
+        <item>Educaţie</item>
+        <item>Sport</item>
+        <item>Cultură</item>
+        <item>Locale</item>
+        <item>Oferte</item>
+    </string-array>
+    <string name="license">\tAceastă aplicaţie permite accesarea tuturor informaţiilor distribuite pe portalul web Consiliului Raional Rezina de către serviciile de informare a Consiliului Raional Rezina.\n\n\tAplicaţia afișează articolele de pe portalul oficial al consiliului divizîndule pe categorii. Utilizatorul are posibilitatea de selecta categoriile care vor fi afișate de de aplicaţie accesîn meniul Setări-&gt;Categorii Afișate.\n\n\tEste posibila actualizarea datelor din fiecare categorie separat (pentru optimizarea traficului internet) prin acesarea punctului respectiv din meniul aplicaţiei.\n\n\tWEB: http://consiliu.rezina.md \n\tDeveloper: Bostanica Ion\n\tEmail: kemonoske@gmail.com \n\tTwitter: http://twitter.com/kemonoske \n\n</string>
+
+    <string name="admob_publisher_id">a15040e6ad392a9</string>
+    
+</resources>
